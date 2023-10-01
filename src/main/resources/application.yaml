@@ -1,0 +1,15 @@
+microsoft:
+  azure:
+    url: "https://login.microsoftonline.com/"
+    scopes: "https://graph.microsoft.com/.default"
+    tenantId: "YOUR_TENANT_ID"
+    clientId: "YOUR_CLIENT_ID"
+    clientSecret: "YOUR_CLIENT_SECRET"
+
+scheduler:
+  active: true
+  fixedDelay: 10000
+  threadPoolSize: 10
+
+email: your@email.com
+
